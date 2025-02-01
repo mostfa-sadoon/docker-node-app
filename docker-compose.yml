@@ -2,7 +2,6 @@ version: '3'
 services:
   node-app:
    container_name: node_app_container
-   image: mostafa731/node-app
    ports:
     - 4000:4000 
    env_file:
