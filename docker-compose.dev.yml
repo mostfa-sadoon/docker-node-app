@@ -30,3 +30,8 @@ services:
       ME_CONFIG_BASICAUTH: false
     depends_on:     
      - mongo
+
+
+  redis:
+    depends_on:
+      - mongo
